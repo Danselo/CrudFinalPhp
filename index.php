@@ -4,8 +4,8 @@
         <div class="row">
           <div class="col-8">
           <p>
-            <a class="btn btn-primary" data-bs-toggle="collapse" href="#lista" aria-expanded="false" aria-controls="contentId">
-              Show
+            <a class="btn btn-dark" data-bs-toggle="collapse" href="#lista" aria-expanded="false" aria-controls="contentId" >
+              Mostrar Tabla
             </a>
           </p>
           <div class="collapse" id="lista">
@@ -17,17 +17,14 @@
                 <table class="table">
                   <thead>
                     <tr>
-                      <th></th>
-                      <th></th>
-                      <th></th>
+                      <th>Nombre</th>
+                      <th>Apellido</th>
+                      <th>Horario</th>
+                      <th>Dia</th>
+
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td scope="row"></td>
-                      <td></td>
-                      <td></td>
-                    </tr>
                     <tr>
                       <td scope="row"></td>
                       <td></td>
@@ -46,7 +43,7 @@
 
           <div class="col-4">
                 <p >
-                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#contentId" aria-expanded="false"
+                  <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#contentId" aria-expanded="false"
                       aria-controls="contentId">
                     Registrar
                   </button>
@@ -55,11 +52,11 @@
                     <div class="card">
                       <div class="card-header">
                           <div class="card-title text-center">
-                            Registrar
+                            <h5 class="">REGISTRAR</h5>
                           </div>
                       </div>
                       <div class="card-body">
-                          <form class="row g-3 needs-validation" novalidate>
+                          <form class="row g-3 needs-validation form-horizontal" novalidate>
                             <div class="col-md-6">
                               <label for="validationCustom01" class="form-label">Nombre</label>
                               <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
@@ -97,7 +94,7 @@
                               </div>
                             </div>
                             <div class="col-12">
-                              <button class="btn btn-primary" type="submit">Submit form</button>
+                              <button class="btn btn-dark" type="submit">Enviar Datos</button>
                             </div>
                           </form>
                       </div>
