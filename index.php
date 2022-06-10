@@ -1,4 +1,7 @@
+<?php include 'template/validarsesion.php'; ?>
+
 <?php include 'template/header.php'; ?>
+
 
 <?php
 /*Se llama el archivo de conexion a la base de datos*/

@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="navbar-nav ms-auto">
-                <a href="#" class="nav-item nav-link">Login</a>
+                <a href="template/cerrar_sesion.php" class="nav-item nav-link">Cerrar Sesion</a>
             </div>
         </div>
     </div>
